@@ -1,0 +1,12 @@
+#content{
+    padding: 1rem;
+}
+
+.afbeelding{
+    width: 15rem;
+    padding: 0.5rem;
+}
+
+.flexbox{
+    display: flex;
+}
