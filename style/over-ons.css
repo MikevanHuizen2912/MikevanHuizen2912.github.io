@@ -1,12 +1,27 @@
-#content{
-    padding: 1rem;
+#content {
+  padding: 1rem;
 }
 
-.afbeelding{
-    width: 15rem;
-    padding: 0.5rem;
+.flexbox-1 {
+  display: flex;
+  flex-direction: column;
 }
 
-.flexbox{
-    display: flex;
+.flexbox-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .flexbox-1 {
+    flex-direction: row;
+  }
+
+  .flexbox-2 {
+    flex-direction: row-reverse;
+  }
+}
+.afbeelding {
+  width: 15rem;
+  padding: 0.5rem;
 }
